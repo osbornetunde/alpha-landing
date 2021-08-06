@@ -31,7 +31,7 @@ const DeveloperForm = () => {
         try {
             setSubmitting(true);
             const data = await axios.post(
-                "https://hooks.zapier.com/hooks/catch/10015745/ovp59sa/",
+                "https://hooks.zapier.com/hooks/catch/10683539/bud00ju",
                 modifiedValue
             );
             console.log("response",data)
