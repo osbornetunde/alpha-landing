@@ -31,7 +31,7 @@ const Header = () => {
             </Link>
 
             { router.pathname === "/" ? <Box as="span" onClick={() => router.push('/register')}>
-                    <Button width="16.2rem" height="6.3rem" text="Join our alpha" icon={<Dot/>}/>
+                    <Button width="16.2rem" height="6.3rem" text="Join our Alpha" icon={<Dot/>}/>
                 </Box> :
                 <Box as="span" onClick={() => router.back()}>
                     <Button width="16.2rem" height="6.3rem" text="Go back"/>
