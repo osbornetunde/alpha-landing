@@ -32,7 +32,8 @@ const MerchantForm = () => {
             setSubmitting(true);
             const data = await axios.post(
                 "https://hooks.zapier.com/hooks/catch/10683539/bud00ju",
-                modifiedValue
+                modifiedValue,
+                {headers: {'Accept': 'application/json'}}
             );
             console.log("response",data)
             if (data.status === 200) {
