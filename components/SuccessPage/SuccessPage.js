@@ -37,7 +37,7 @@ const SuccessPage = () => {
                         <Box as="span" onClick={() => router.push('/')}>
                             <Button width={width < 768 ? "24rem" : "17.9rem"} height="6.9rem" text="Ok take me back"/>
                         </Box>
-                        <BookTourButton onClick={() => router.push("/schedule")}>Can’t Wait, Book a Tour</BookTourButton>
+                        {/*<BookTourButton onClick={() => router.push("/schedule")}>Can’t Wait, Book a Tour</BookTourButton>*/}
                     </div>
                 </SuccessContainer>
             </div>

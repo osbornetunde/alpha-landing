@@ -30,9 +30,10 @@ const DeveloperForm = () => {
         // https://flow.zoho.com/727443403/flow/webhook/incoming?zapikey=1001.6a687bef98c4e1b86016b160f9595d3a.04078d305e395cbe015e408ce3a5d41a&isdebug=false
         try {
             setSubmitting(true);
-            const data = await axios.post(
-                "https://hooks.zapier.com/hooks/catch/10683539/bud00ju",
-                modifiedValue, {headers: {'Accept': 'application/json'}}
+            const data = await axios.create({ transformRequest: [(data, _headers) => JSON.stringify(data)] })
+                .post(
+                    "https://hooks.zapier.com/hooks/catch/10683539/bud00ju",
+                modifiedValue
             );
             console.log("response",data)
             if (data.status === 200) {
