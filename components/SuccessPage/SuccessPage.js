@@ -31,7 +31,7 @@ const SuccessPage = () => {
                     <Heading as="h2" mt="3.3rem">Yay!</Heading>
                     <div className="message-wrapper">
                         <p className="message">Thank you for requesting to join
-                            our beta program we will reach out to you when the next cohort starts</p>
+                            our alpha program we will reach out to you when the next cohort starts</p>
                     </div>
                     <div className="button-wrapper">
                         <Box as="span" onClick={() => router.push('/')}>
