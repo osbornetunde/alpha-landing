@@ -63,18 +63,3 @@ export default class MyDocument extends Document {
         )
     }
 };
-
-// <style dangerouslySetInnerHTML={{__html: `
-//   @font-face {
-//     font-family: 'Colfax';
-//     font-weight: 300;
-//     src: url('/static/fonts/ColfaxWebRegularSub.woff') format('woff');
-//   }
-//
-//   @font-face {
-//     font-family: 'Colfax';
-//     font-weight: bold;
-//     src: url('/static/fonts/ColfaxWebBoldSub.woff') format('woff');
-//   }
-// }
-// `}}/>
