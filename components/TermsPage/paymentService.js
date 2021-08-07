@@ -13,7 +13,7 @@ const PaymentService = () => {
                 <br />
                 <p className="details" id={'paymentIntro'}>For this Agreement, <span style={{fontWeight: 700}}>Credo</span> and <span style={{fontWeight: 700}}>The Merchant</span> are hereinafter, jointly referred to as <span style={{fontWeight: 700}}>“Parties”</span> and individually as <span style={{fontWeight: 700}}>“Credo”</span> or <span style={{fontWeight: 700}}>“The Merchant”</span> as it pertains.</p>
                 This Agreement will be binding upon The Merchant when:
-                <ul style={{listStyleType:'lower-roman', marginLeft: '2rem'}}>
+                <ul style={{listStyleType:'lower-roman'}}>
                     <li style={{marginBottom:'1rem'}}> The Merchant or any person acting on behalf of The Merchant accepts the terms of this Agreement by clicking “I Accept”, checkbox indicating acceptance, or otherwise affirmatively accepting the terms of this Agreement;</li>
                     <li style={{marginBottom:'1rem'}}>The Merchant’s integration with, registration with, or submission of any transaction to Credo; or</li>
                     <li style={{marginBottom:'1rem'}}>The Merchant’s use or attempted use of any Credo Service. If The Merchant does not agree to any terms and conditions contained herein, The Merchant must not accept this Agreement and must not use the Services.</li>
@@ -155,7 +155,7 @@ const PaymentService = () => {
                             <li style={{marginBottom:'1rem'}}>determining a Customer’s eligibility and authority to complete Transactions. However, authorized Transactions may be subject to a Dispute. Credo is not responsible for or liable to The merchant for authorized and completed Charges that are later the subject of a Dispute, Refund, or Reversal, are submitted without authorization or in error, or violate any Laws.</li>
                         </ul>
                         <p className="details">The merchant is by default responsible to Credo for all Disputes, Refunds, Reversals, Returns, or Fines regardless of the reason or timing. Credo may decline to act upon a Refund instruction, or delay execution of the instruction, if: </p>
-                        <ul style={{listStyleType:'lower-roman', marginLeft:'1rem'}}>
+                        <ul style={{listStyleType:'lower-roman'}}>
                             <li>Merchant is the subject of Bankruptcy Proceedings; or </li>
                             <li>where we otherwise believe that there is a risk that The merchant will not meet liabilities under this Agreement (including with respect to the Charge that is the subject of the Refund instruction).</li>
                         </ul>

@@ -110,7 +110,8 @@ const BetaNda = () => {
                         <p className="title" id={'contain'}>RETURN OF MATERIAL CONTAINING OR PERTAINING TO THE CONFIDENTIAL INFORMATION</p>
                         <p className="details">We may employ third-party companies and individuals for the following reasons:</p>
                         <br/>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>7.1</span> The Disclosing Party may, at any time in writing, request the Receiving Party to return any material containing, pertaining to or relating to confidential information disclosed pursuant to the terms of this Agreement and may, in addition request the Receiving Party to furnish a written statement to the effect that, upon such return, the receiving party has not retained in its possession, or under its control, either directly or indirectly, any such material provided the said material are in the Receiving Party’s possession at the time of request.
                             </li>

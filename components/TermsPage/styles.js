@@ -65,7 +65,7 @@ const StyledTermsContent = styled.section`
     }
     
     p{
-      font-size: 1.6rem;
+      font-size: 1.4rem;
       font-weight: 400;
       line-height: 27px;
       color: rgba(53, 53, 66, 0.6);
@@ -77,7 +77,7 @@ const StyledTermsContent = styled.section`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     padding: 0 3.6rem .2rem 5.2rem;
     color: #353542;
     

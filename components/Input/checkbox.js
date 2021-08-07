@@ -25,8 +25,8 @@ const CheckboxContainer = styled.div`
     }
   }
   input[type="checkbox"] {
-    height: 2rem;
-    width: 2rem;
+    height: 1rem;
+    width: 1rem;
     background: #FFFFFF;
     border: 0.3px solid #000000;
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.05);

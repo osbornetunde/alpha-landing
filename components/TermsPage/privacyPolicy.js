@@ -65,7 +65,7 @@ const PrivacyPolicy = () => {
                 <br/>
                 <p className={'details'}>We use your information for the following purposes:</p>
                 <br/>
-                <ul style={{marginLeft: '3rem'}}>
+                <ul>
                     <li>to serve application content to you.</li>
                     <li>to activate your account.</li>
                     <li>to handle orders, deliver products, process payments, and refunds.</li>
@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
                 <br/>
                 <br/>
                 <p style={{fontWeight: 'bold'}}>Links to the privacy policy of third party service providers used by the Credo app</p>
-                <ul style={{marginLeft: '3rem', marginTop:'2rem', marginBottom:'2rem', color:'#0765FF'}}>
+                <ul style={{marginTop:'2rem', marginBottom:'2rem', color:'#0765FF'}}>
                     <li><Link href={'https://policies.google.com/privacy'} color={'#0765FF'} isExternal>Google Play Services</Link> </li>
                     <li><Link href={'https://firebase.google.com/policies/analytics'} color={'#0765FF'} isExternal>Google Analytics for Firebase </Link></li>
                     <li><Link href={'https://www.facebook.com/about/privacy/update/printable'} color={'#0765FF'} isExternal>Facebook</Link> </li>
@@ -92,7 +92,7 @@ const PrivacyPolicy = () => {
                 <br/>
                 <p className={'details'}>We may share your personal information with:</p>
                 <br/>
-                <ul style={{marginLeft: '3rem'}}>
+                <ul>
                     <li style={{marginBottom:'1rem'}}>
                         <p><span style={{fontWeight:'bold'}}>Credo affiliates and subsidiaries</span>, to provide our Services and for internal administration purposes.
                         If your personal information could be used contrary to this policy, you will receive prior notice and the opportunity to communicate preferences you may have.</p>
@@ -133,7 +133,7 @@ const PrivacyPolicy = () => {
                 <p className={'title'} id={'providers'}>SERVICE PROVIDERS</p>
                 <p className={'details'}>We may employ third-party companies and individuals for the following reasons:</p>
                 <br/>
-                <ul style={{marginLeft: '3rem'}}>
+                <ul>
                     <li>
                         to facilitate our Service;</li>
                     <li>to provide the Service on our behalf;</li>

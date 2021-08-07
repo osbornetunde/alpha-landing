@@ -30,7 +30,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'ourobligation'}>CREDO’S OBLIGATIONS</p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>2.1</span> Credo will deliver the Alpha Test Material to the Participant.
                             </li>
@@ -47,7 +47,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'yourobligations'}>PARTICIPANT’S OBLIGATIONS </p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>3.1</span> Participant agrees to test and evaluate the Alpha Test Material as requested and described in any instructions provided by Credo and as directed. Participant will promptly notify Credo of any and all functional flaws, errors, anomalies, and problems directly or indirectly associated with the Alpha Test Material known to or discovered by Participant. Participant agrees to provide Credo with such reports via the methods designated by Credo and to promptly respond to any and all reasonable inquiries, questionnaires, surveys, and other test documents submitted to Participant by Credo.
                             </li>
@@ -73,7 +73,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'confidentiality'}>CONFIDENTIALITY </p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>4.1</span> Participant acknowledges that as a Alpha Tester, Participant, the members of Participant’s household, or Participant’s employees (as applicable, “Recipients”), may have access to, and Credo may disclose to Participant, certain valuable information belonging to and relating to Credo which Credo considers confidential, including, but not limited to, information concerning the Alpha Test Material, the Alpha Test Material’s trademark(s) and trade name(s), computer programs, user manuals, sales and marketing plans, business plans, processes, and other trade secrets (“Confidential Information”). Participant shall ensure that Participant and all Recipients use the Confidential Information solely for testing purposes and shall not disclose, without Credo’s written consent, such Confidential Information to third parties or use such Confidential Information for their own benefit or for the benefit of third parties.
                             </li>
@@ -87,7 +87,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'proprietary'}>PROPRIETARY RIGHTS	 </p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>5.1</span>The Alpha Test Material provided by Credo and all copies thereof, are proprietary to and the property of Credo. All applicable rights in all copyrights, trademarks, trade secrets, trade names, patents and other intellectual property rights in or associated with the Alpha Test Material are and will remain vested in Credo and Participant shall have no such intellectual property rights in the Alpha Test Material.
                             </li>
@@ -104,7 +104,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'warranty'}>DISCLAIMER OF WARRANTY	 </p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>6.1</span>By its nature, the Alpha Test Material may contain errors, bugs and other problems that could cause system failure and the testing and quality assurance of the Alpha Test Material may not yet be completed. Participant acknowledges and agrees that the Alpha Test Materials may contain, in Credo’s sole discretion, more or fewer features or different licensing terms than subsequent commercial release versions. Because the Alpha Test Material is subject to change, Credo reserves the right to alter the Alpha Test Material at any time, and any reliance on the Alpha.
                             </li>
@@ -118,7 +118,7 @@ const BetaParticipant = () => {
                     </li>
                     <li>
                         <p className="title" id={'termtermination'}>TERM AND TERMINATION	 </p>
-                        <ul style={{listStyleType:'none', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'none'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 <span style={{fontWeight: 'bold', marginRight: '.5rem'}}>7.1</span>The term of this Agreement shall begin on the dates each party accepted this Agreement by signature and shall continue until terminated. Upon termination of this Agreement for any reason, the obligation to protect Confidential Information shall survive such termination.
                             </li>
@@ -146,7 +146,7 @@ const BetaParticipant = () => {
                         <p className="title" id={'head'}>HEADINGS</p>
                         <p className="details">The headings of the clauses of this Agreement are used for convenience only and shall not affect the meaning or construction of the contents of this Agreement.</p>
                         <br/>
-                        <ul style={{listStyleType:'lower-roman', marginLeft: '2rem'}}>
+                        <ul style={{listStyleType:'lower-roman'}}>
                             <li style={{marginBottom:'1rem'}}>
                                 provide a receipt that accurately describes each Transaction to Customers;
                             </li>
