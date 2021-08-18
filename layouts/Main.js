@@ -25,6 +25,7 @@ const GlobalStyle = createGlobalStyle`
   html {
     width: 100%;
     font-size: 62.5%;
+    scroll-behavior: smooth;
   }
 
   html, body {
