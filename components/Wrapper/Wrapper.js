@@ -19,7 +19,7 @@ const Wrapper = ({padding,children}) => {
                             <Box as="span" className="bell" >
                                <img src="/bell.png" alt="bell"/>
                             </Box>
-                            <Box as="span" ml="2rem" onClick={() => router.push('/register')}>Join our Alpha</Box>
+                            <Box as="span" ml="2rem" onClick={() => router.push('/register')}>Register</Box>
                             <Box as="span" ml="1rem" className="button_arrow">
                                 <ButtonArrow/>
                             </Box>
