@@ -106,7 +106,7 @@ export const JoinButton = ({ disabled, margintop, submitting }) => {
                         size="xl"
                     /> :
                     <>
-                        Join the Alpha
+                        Sign Up Now
                         <Arrow/>
                     </>
             }

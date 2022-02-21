@@ -9,7 +9,7 @@ const Wrapper = ({padding,children}) => {
     return (
         <WrapperContainer padding={padding}>
             <div className="title-container">
-                <h1 className="title">We are building the future of Social Payment.</h1>
+                <h1 className="title">Maximizing Revenue with Online Payments.</h1>
                 <div className="box"/>
                 <p className="sub-title">With Credo you can now make and receive payments on your favourite social platform.</p>
                 {router.pathname === '/' &&
