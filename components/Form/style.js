@@ -6,4 +6,14 @@ const StyledForm = styled.form`
   align-items: center;
 `
 
-export { StyledForm }
+const ExternalLink = styled.a`
+   transition: all 0.15s ease-out;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    outline: none;
+    color: var(--primary-color);
+    font-weight: 700;
+`;
+
+export { StyledForm,ExternalLink }

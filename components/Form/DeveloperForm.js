@@ -7,7 +7,7 @@ import {useRecoilState} from "recoil";
 import {Box, Link, Text} from "@chakra-ui/react";
 import {Input} from "../Input";
 import {JoinButton} from "../Button";
-import {StyledForm} from "./style";
+import {StyledForm,ExternalLink} from "./style";
 import Checkbox from "../Input/checkbox";
 import {developerDetails} from "../../atoms/developerDetails";
 
@@ -52,11 +52,11 @@ const DeveloperForm = () => {
             <Input name="name" ref={register({ required: { value: true, message: 'Name is required' }})} errors={errors} placeholder="Name" type="text" fontsize="1.9rem"/>
             <Input name="email" ref={register({ required: { value: true, message: 'email is required' } })} errors={errors} placeholder="Email Address" type="email" fontsize="1.9rem"/>
             <Box w={'100%'}>
-                <Text mt={'2.8rem'} mb={'1.5rem'} fontSize={'1.2rem'} fontWeight={400} lineHeight={'2.7rem'} color={'rgba(53, 53, 66, 0.8)'} width={'49.3rem'}>To participate in our Alpha Test Program, you will be required to keep things on the <br/><Box as={'span'} fontWeight={'700'}>hush-hush</Box> for a while.</Text>
+                <Text mt={'2.8rem'} mb={'1.5rem'} fontSize={'1.2rem'} fontWeight={400} lineHeight={'2.7rem'} color={'rgba(53, 53, 66, 0.8)'} width={'49.3rem'}>Information submitted will be processed in accordance with <ExternalLink className="chakra-link" href="https://www.credocentral.com/legal" target="_blank">Credo Privacy Policy</ExternalLink>.</Text>
             </Box>
-            <Box w="100%" >
+            {/* <Box w="100%" >
                 <Checkbox name="agree" ref={register({ required: { value: true, message: 'please tick to agree' }})} errors={errors} label={() => renderPolicy()} margintop={'0'} width={'100%'}/>
-            </Box>
+            </Box> */}
             <Box w="100%">
                 <Checkbox name="agreeNewsletter" ref={register({ required: { value: true, message: 'please tick to agree' }})} errors={errors} label="I agree to receive Credo news and updates." margintop={'0'}/>
             </Box>
